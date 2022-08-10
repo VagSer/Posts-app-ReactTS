@@ -1,0 +1,52 @@
+.Pagination {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px auto;
+    height: 33px;
+    padding: auto;
+}
+
+.PageButton,
+.CurrentPageButton {
+  outline: none;
+  text-decoration: none;
+  background: none;
+  border: none;
+  font-weight: 700;
+  font-size: 18px;
+  font-style: italic;
+  color: #474955;
+  margin: 10px;
+}
+
+.CurrentPageButton {
+  color: #7EBC3C;
+}
+
+.TextButton {
+  outline: none;
+  text-decoration: none;
+  font-style: normal;
+  background: none;
+  border: none;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 137.69%;
+  margin: 0 auto;
+  &:visited {
+    color: #474955;
+  }
+
+  &:link {
+    color: #474955;
+  }
+
+  &:hover {
+    color: #7EBC3C;
+  }
+}
+
+.Buttons {
+  margin: auto;
+}
